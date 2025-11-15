@@ -52,7 +52,6 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.zxing.android.embedded)
 
-    implementation("com.github.aagarwal1012:Image-Steganography-Library-Android:v1.0")
     // Corrutinas
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
@@ -60,10 +59,6 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-
-    // NUEVO: leer EXIF (JPEG) y metadatos PNG (opcional)
-    implementation("androidx.exifinterface:exifinterface:1.3.7")
-    implementation("com.drewnoakes:metadata-extractor:2.18.0")
 
 }
 

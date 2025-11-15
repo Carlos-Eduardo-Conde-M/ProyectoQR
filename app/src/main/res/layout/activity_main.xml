@@ -37,8 +37,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/imagen_101"
-        android:src="@drawable/imagen_101"
+        app:srcCompat="@drawable/stego_image"
+        android:src="@drawable/stego_image"
         android:contentDescription="imagenqr"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
